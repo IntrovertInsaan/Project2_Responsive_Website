@@ -9,10 +9,12 @@ p,
 ul {
     margin: 0;
     padding: 0;
+    font-family: serif;
+    line-height: 1.6;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: serif;
     line-height: 1.6;
 }
 
@@ -37,6 +39,12 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+    color: #b74b4b;
+    border-bottom: 3px solid #b74b4b;
 }
 
 /* Main Design */
@@ -76,3 +84,4 @@ summary {
     font-weight: bold;
     font-size: 16px;
 }
+
